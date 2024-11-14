@@ -1,0 +1,37 @@
+# Ignorowanie folderów skompilowanych
+bin/
+obj/
+
+# Ignorowanie plików tymczasowych
+*.cache
+*.pdb
+*.exe
+*.dll
+*.log
+
+# Ignorowanie publikacji i zależności
+publish/
+.vscode/
+.vs/
+node_modules/
+wwwroot/lib/
+wwwroot/bundle/
+
+# Pliki konfiguracyjne środowiska i użytkownika
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorowanie plików konfiguracji związanych z CI/CD
+appsettings.Development.json
+.env
+.env.*
+
+# Ignorowanie plików z folderu migracji
+Migrations/
+
+# Inne pliki tymczasowe
+*.tmp
+*.temp
+*.bak
